@@ -13,7 +13,7 @@ categories: [Planning]
 featuredImage: ""
 featuredImagePreview: ""
 
-draft: false
+draft: true
 ---
 
 先前为了申请 Termius 使用, 在 Github 进行了教育认证, 看到资料卡下面的 Pro, 感觉特别帅, 想着把它利用起来, 可是又不知道该该做些什么, 在这儿简单的思考了一下

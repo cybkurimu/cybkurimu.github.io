@@ -20,22 +20,16 @@ draft: false
 
 ![](/assets/基于%20Github%20Action%20自动部署%20Hugo%20Blog/1.png)
 
-**备忘录**
-- [基于 Github Action 自动构建 Hugo 博客](https://www.lixueduan.com/posts/blog/01-github-action-deploy-hugo/)
-- [Hugo + GitHub Action，搭建你的博客自动发布系统 · Pseudoyu](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
-
 ---
 
 ### 不同部署方式的优劣势
 
-**传统部署方式**
-
+传统部署方式
 1. 使用 `hugo` 命令生成 public 文件夹
 2. 将 public 文件夹提交至 Github
 3. 由 Github Pages 提供 Web 服务
 
-**Github Action 部署方式**
-
+Github Action 部署方式
 1. 将整个站点文件夹上传至 Github
 2. Github Actions 生成静态文件, 并提交到其他分支
 3. Github 使用另一分支提供 Web 服务
@@ -48,7 +42,7 @@ draft: false
 
 参考链接: [GitHub Actions 快速入门 - GitHub Docs](https://docs.github.com/zh/actions/quickstart)
 
-假设你已经完成了 Github Action 快速入门, 现在可以将你的博客直接 push 到你的仓库, 当然此时还无法自动构建
+假设你已经完成了 Github Action 快速入门, 现在可以将你的博客文件夹直接 push 到你的仓库, 当然此时还无法自动构建
 
 我的库名称为 `hit0ris/hit0ris.github.io` 现在跟着我做一些操作。
 
