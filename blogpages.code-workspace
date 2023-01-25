@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "path": "./"
+        },
+        {
+            "path": "content"
+        }
+    ],
+    "settings": {
+        "markdown-image.base.fileNameFormat": "${mdname}/${filename}",
+        "markdown-image.local.path": "/assets/",
+        "markdown-image.local.referencePath": "/assets/${mdname}/"
+    }
+}

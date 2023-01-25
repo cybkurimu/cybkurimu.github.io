@@ -1,0 +1,249 @@
+{
+  "settings_version": "0.18.0",
+  "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
+  "preview_variables_in_command_palette": true,
+  "show_autocomplete_menu": true,
+  "working_directory": "",
+  "default_shells": {},
+  "environment_variable_path_augmentations": {},
+  "error_message_duration": 20,
+  "notification_message_duration": 10,
+  "execution_notification_mode": "disabled",
+  "output_channel_clipboard_also_outputs_to_notification": true,
+  "enable_events": true,
+  "approve_modals_by_pressing_enter_key": true,
+  "max_visible_lines_in_shell_command_fields": false,
+  "shell_commands": [
+    {
+      "id": "lhipx5a2pc",
+      "platform_specific_commands": {
+        "default": "/opt/homebrew/bin/python3 ~/Mind/blogpages/script/huugo.py newposts \"{{_article_name}}\""
+      },
+      "shells": {},
+      "alias": "新建文章 (new posts | newposts)",
+      "icon": "file-text",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "xwcnizof8k"
+        }
+      ],
+      "variable_default_values": {}
+    },
+    {
+      "id": "1y6eahymp1",
+      "platform_specific_commands": {
+        "default": "/opt/homebrew/bin/python3 ~/Mind/blogpages/script/huugo.py content add_pic_prefix {{file_uri}}"
+      },
+      "shells": {},
+      "alias": "添加图片前缀 (add pic prefix | update)",
+      "icon": "image",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "hpi2t9xuq3",
+      "platform_specific_commands": {
+        "default": "/opt/homebrew/bin/python3 ~/Mind/blogpages/script/huugo.py article del_empty_assets_folder"
+      },
+      "shells": {},
+      "alias": "删除空的资产文件夹 (del empty assets folder)",
+      "icon": "delete",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "hq4hjs6q0a",
+      "platform_specific_commands": {
+        "default": "git add -A; git commit -m \"{{date:YYYYMMDD_HHmmss}} COMMIT\"; git push -u origin main"
+      },
+      "shells": {},
+      "alias": "部署博客到 Github (git add & git commit & git push)",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "pqkjbv86oq",
+      "platform_specific_commands": {
+        "default": "git pull"
+      },
+      "shells": {},
+      "alias": "同步 Github 内容 (git pull)",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "l3hc8vuh7b",
+      "platform_specific_commands": {
+        "default": "/opt/homebrew/bin/python3 ~/Mind/blogpages/script/huugo.py server {{_server_action}}"
+      },
+      "shells": {},
+      "alias": "hugo server",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "d3sav9gxwo"
+        }
+      ],
+      "variable_default_values": {}
+    }
+  ],
+  "prompts": [
+    {
+      "id": "xwcnizof8k",
+      "title": "文章标题",
+      "description": "在下方输入文章的标题",
+      "preview_shell_command": true,
+      "fields": [
+        {
+          "label": "文章标题",
+          "description": "在下方输入文章的标题",
+          "default_value": "{{date:}}",
+          "target_variable_id": "gu3sr339ow",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Execute"
+    },
+    {
+      "id": "d3sav9gxwo",
+      "title": "server action",
+      "description": "hugo server 功能",
+      "preview_shell_command": false,
+      "fields": [
+        {
+          "label": "start | stop | restart | status",
+          "description": "hugo server action",
+          "default_value": "status",
+          "target_variable_id": "hffmymn53h",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Execute"
+    }
+  ],
+  "builtin_variables": {},
+  "custom_variables": [
+    {
+      "id": "gu3sr339ow",
+      "name": "article_name",
+      "description": "文章标题",
+      "default_value": null
+    },
+    {
+      "id": "hffmymn53h",
+      "name": "server_action",
+      "description": "hugo server action",
+      "default_value": null
+    }
+  ],
+  "output_wrappers": []
+}

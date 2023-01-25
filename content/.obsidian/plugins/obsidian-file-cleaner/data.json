@@ -1,0 +1,4 @@
+{
+  "destination": "system",
+  "excluded": "assets/*/banner"
+}

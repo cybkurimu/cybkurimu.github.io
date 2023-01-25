@@ -1,0 +1,161 @@
+/* ----------- 界面样式 ------------ */
+
+/* # 左侧大纲界面 */
+/* .outline .tree-item-inner{
+    font-size: 13px;
+} */
+
+/* 文章内标题 */
+/* .inline-title{
+    display: none;
+} */
+
+/* 大纲界面 */
+
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-inner{
+    font-size: 13px;
+    padding-left: 12px;
+    color: #d3cccc;
+}
+
+.outline{
+    padding: ;
+}
+
+.quiet-outline{
+    padding-left: 0px;
+}
+
+.n-slider n-slider--with-mark{
+    --n-handle-size: 0px;
+}
+
+/* 文件列表 */
+.nav-file-title-content, .nav-folder-title-content{
+/*    color: #d3cccc;*/
+    font-size: 14px;
+/*    color: black;*/
+}
+
+/* Mado Miniflow 主题文件列表 */
+
+body:is(:not(.css-settings-manager),.toggle-explorer-indent) .nav-folder.mod-root .nav-folder > .nav-folder-children{
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+/* mado 主题主界面全宽 (沾满进度条) */
+body:not(.is-mobile) .workspace:not(.is-right-sidedock-open) .workspace-split.mod-vertical.mod-root{
+    padding-right: 0px;
+}
+
+/* ----------- 正文样式 ------------ */
+
+/* 列表样式 */
+.markdown-source-view ol > li, .markdown-source-view ul > li, .markdown-preview-view ol > li, .markdown-preview-view ul > li, .markdown-rendered ul > li, .mod-cm6 .HyperMD-list-line.cm-line{
+    padding-bottom: 2px;
+}
+
+.HyperMD-codeblock HyperMD-codeblock-begin HyperMD-codeblock-begin-bg HyperMD-codeblock-bg cm-line{
+    padding: 20px;
+}
+
+ol > li::marker, ul > li::marker, .cm-s-obsidian .cm-formatting-list{
+    color: #F5F5F5;
+}
+
+/* 图片样式 */
+.image-embed{
+    text-align:center;
+}
+span.image-embed{
+    width:var(--file-line-width);
+    display:inline-block;
+    text-align:center;
+}
+
+/* banner 百分百占比*/
+.banner-image{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+/* 图片屏幕宽度占比 90% */
+.workspace-leaf-content img:not([width]), .workspace-leaf-content audio, .workspace-leaf-content video{
+    /* max-width: 90%; */
+    max-width: 93%;
+    max-height: 90%;
+}
+
+
+/* 表格屏幕宽度占比 90% */
+table{
+    width: 100%;
+}
+
+/* 代码块样式  */
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight){
+    color: #f86767;
+}
+
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight){
+    background-color: ;
+}
+
+.markdown-rendered code{
+    color: #f86767;
+}
+
+body .markdown-preview-view code{
+    color: #f86767;
+}
+
+/* 缩短换行 */
+.cm-line br {
+/*    display: in-line; /* makes it have a width */*/
+/*    content: ""; /* clears default height */*/
+/*    margin-top: 20px; /* change this to whatever height you want it */*/
+}
+
+/* 加粗字体样式 */
+.b, strong, .cm-strong {
+    color: #f78166;
+}
+
+/* mado theme todo optimize */
+.markdown-source-view.mod-cm6 .task-list-item-checkbox{
+    padding: 1px;
+    left: 0px;
+}
+
+/* 折叠 title 间距调整 */
+
+h3, .markdown-rendered h3, .HyperMD-header-3, .HyperMD-list-line .cm-header-3{
+    line-height: 30px;
+}
+
+/* hr 分割线样式美化 */
+/* css属性查询网站：https://developer.mozilla.org/zh-CN/docs/Learn/CSS */
+.markdown-preview-view hr, hr {
+  margin-block-start: 4em;
+  margin-block-end: 4em;
+  border: none;
+  height: 1px;
+/*  background-image: linear-gradient(to right, var(--background-primary), var(--text-accent), var(--background-primary));*/
+  background-image: linear-gradient(to right, var(--background-primary), var(--text-accent), var(--background-primary));
+}
+
+.markdown-preview-view hr::after, hr::after {
+/*  content: '§';*/
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(60deg);
+  transform-origin: 50% 50%;
+  padding: 0.5rem;
+  color: var(--text-sub-accent);
+  background-color: var(--background-primary);
+}
+
+
+/* ------------------------------ */
