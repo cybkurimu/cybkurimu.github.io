@@ -75,8 +75,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -151,15 +150,15 @@
   },
   "active": "49b089220805bc13",
   "lastOpenFiles": [
-    "assets/基于 Github Action 自动部署 Hugo Blog/2.png",
-    "posts/基于 Github Action 自动部署 Hugo Blog.md",
-    "posts/123.md",
-    "about/index.md",
     "posts/关于个人 Github 开源项目的一些思考.md",
+    "posts/基于 Github Action 自动部署 Hugo Blog.md",
+    "about/index.md",
+    "assets/基于 Github Action 自动部署 Hugo Blog/3.png",
+    "assets/基于 Github Action 自动部署 Hugo Blog/2.png",
+    "posts/123.md",
     "draft/基于 Github Action 自动部署 Hugo Blog.canvas",
     "draft/基于 Github Action 自动部署 Hugo Blog.md",
     "assets/基于 Github Action 自动部署 Hugo Blog/1.png",
-    "posts/Welcome.md",
-    "posts/sqlinject_cheatsheet.md"
+    "posts/Welcome.md"
   ]
 }
