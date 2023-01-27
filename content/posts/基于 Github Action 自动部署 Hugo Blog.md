@@ -7,7 +7,7 @@ slug: 4105e44f
 date: 2023-01-25T17:09:50+08:00
 lastmod: 2023-01-25T17:09:50+08:00
 
-tags: [Github ACtion, Blog]
+tags: [Github, Blog]
 categories: [Planning]
 
 featuredImage: ""

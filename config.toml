@@ -33,18 +33,18 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 ########## 个人信息 ##########
 # 作者信息
 [author]
-  name = "Hit0ris"
-  email = "gotohitoris@outlook.com"
+  name = "Hitorisk"
+  email = "hitoriskurimu@outlook.com"
   link = "https://blog.xxm.moe"
 
 # 社交图标
   [params.social]
-    GitHub = "hit0ris"
-    Twitter = "gotohitoris"
+    GitHub = "hitoriskurimu"
+    Twitter = "hitoriskurimu"
     Steam = ""
     Zhihu = ""
     Bilibili = "3493107249187602"
-    Email = "21151640@qq.com"
+    Email = "hitoriskurimu@outlook.com"
     RSS = true
 
 ########## 主题配置 ##########
@@ -93,9 +93,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 日期格式
   dateFormat = "2006-01-02"
   # 标题, 用于 Open Graph 和 Twitter Cards
-  title = "往世乐土"
+  title = ""
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "GotoHitoris's Blog"
+  description = ""
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
 
@@ -120,9 +120,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # 页面底部信息配置
   [params.footer]
-    enable = true
+    enable = false
     # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
-    custom = "<a style='color: #2d96bd;' href='https://github.com/hit0ris'>https://github.com/hit0ris</a>"
+    custom = "<a style='color: #999998'>人在灰烬的信仰里重生</a>"
     # LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
     hugo = false
     # LoveIt 新增 | 0.2.0 是否显示版权信息
@@ -204,7 +204,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # 主页显示头像的 URL
       avatarURL = "/images/avatar.png"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = "Hit0ris's Blog"
+      title = "Hitorisk"
       # 主页显示的网站副标题 (允许 HTML 格式)
       subtitle = "BOCCHI THE HACK!"
       # 是否为副标题显示打字机动画

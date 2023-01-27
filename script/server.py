@@ -9,6 +9,7 @@ init(autoreset=True)
 # start_command = "nohup /opt/homebrew/bin/hugo server -s ~/Mind/blogpages -D -p 1313 --disableFastRender >/dev/null 2>&1 &"
 start_command = "nohup /opt/homebrew/bin/hugo server -s ~/Mind/blogpages -e production -p 1313 --disableFastRender >/dev/null 2>&1 &"
 stop_command = "ps -ef|grep -v grep|grep hugo|awk '{print $2}'|xargs kill -9"
+develop_start_command = "nohup /opt/homebrew/bin/hugo server -s ~/Mind/blogpages -e production -p 1313 -D --disableFastRender >/dev/null 2>&1 &"
 
 """
 vim ~/.zhsrc 定义 hugo-global 命令
@@ -52,7 +53,6 @@ def status():
         
 def restart():
     status, pid = is_it_running()  # 查看运行状态并保存到 status 变量, 结果有 IS RUNNING / NOT RUNNING
-
     if status == "IS RUNNING":
         os.popen(stop_command).read().strip()
         os.popen(start_command).read().strip()
@@ -62,6 +62,12 @@ def restart():
         os.popen(start_command).read().strip()
         print(f'{Fore.GREEN} [+] Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)')
         
+def develop():
+    print(f'{Fore.BLUE} [!] Run in developer mode')
+    print(f'{Fore.BLUE} [!] http://localhost:1313/')
+    os.popen(stop_command).read().strip()
+    os.popen(develop_start_command).read().strip()
+
 def services(action):
     if action == 'status':
         status()
@@ -71,8 +77,10 @@ def services(action):
         stop()
     elif action == 'restart':
         restart()
+    elif action == 'develop':
+        develop()
     else:
         print(f'你要不再看看你输入的是啥? {action}')
-        
+            
 if __name__ == '__main__':
     fire.Fire(services)
