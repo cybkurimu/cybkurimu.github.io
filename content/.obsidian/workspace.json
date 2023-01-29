@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/关于个人 Github 开源项目的一些思考.md",
+                "file": "posts/基于 Github Action 自动部署 Hugo Blog.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/关于个人 Github 开源项目的一些思考.md"
+                "file": "posts/基于 Github Action 自动部署 Hugo Blog.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/关于个人 Github 开源项目的一些思考.md",
+                "file": "posts/基于 Github Action 自动部署 Hugo Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/关于个人 Github 开源项目的一些思考.md",
+                "file": "posts/基于 Github Action 自动部署 Hugo Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,8 +150,8 @@
   },
   "active": "94f860e994b7e4d6",
   "lastOpenFiles": [
-    "posts/基于 Github Action 自动部署 Hugo Blog.md",
     "posts/关于个人 Github 开源项目的一些思考.md",
+    "posts/基于 Github Action 自动部署 Hugo Blog.md",
     "about/index.md",
     "assets/基于 Github Action 自动部署 Hugo Blog/3.png",
     "assets/基于 Github Action 自动部署 Hugo Blog/2.png",
