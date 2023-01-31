@@ -11,8 +11,12 @@
             "id": "721c1863fe75ee3f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -43,7 +47,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md"
+              }
             }
           },
           {
@@ -52,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Blog",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257
+    "width": 284
   },
   "right": {
     "id": "99665e454dc16951",
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293,
-    "collapsed": true
+    "width": 325
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -142,15 +149,15 @@
   },
   "active": "721c1863fe75ee3f",
   "lastOpenFiles": [
-    "posts/基于 Github Action 自动部署 Hugo Blog.md",
-    "posts/关于个人 Github 开源项目的一些思考.md",
+    "posts/【Hugo】基于 Github Action 自动部署 Hugo Blog.md",
+    "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md",
+    "posts/draft/关于个人 Github 开源项目的一些思考.md",
     "about/index.md",
     "assets/基于 Github Action 自动部署 Hugo Blog/3.png",
-    "assets/基于 Github Action 自动部署 Hugo Blog/2.png",
+    "assets/【Hugo】基于 Github Action 自动部署 Hugo Blog/2.png",
     "posts/123.md",
     "draft/基于 Github Action 自动部署 Hugo Blog.canvas",
     "draft/基于 Github Action 自动部署 Hugo Blog.md",
-    "assets/基于 Github Action 自动部署 Hugo Blog/1.png",
-    "posts/Welcome.md"
+    "assets/【Hugo】基于 Github Action 自动部署 Hugo Blog/1.png"
   ]
 }

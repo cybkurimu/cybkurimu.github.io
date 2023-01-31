@@ -1,5 +1,5 @@
 ---
-title: "基于 Github Action 自动部署 Hugo Blog"
+title: "【Hugo】基于 Github Action 自动部署 Hugo Blog"
 subtitle: ""
 summary: ""
 
@@ -18,7 +18,7 @@ draft: false
 
 真的快要被这一堆红色的 error & not successful 烦死了, 照猫画虎半天, 出现一点小问题就没法解决, 这篇记录下从理解 Github Action 到成功自动化部署博客的过程
 
-![](/assets/基于%20Github%20Action%20自动部署%20Hugo%20Blog/1.png)
+![](assets/【Hugo】基于%20Github%20Action%20自动部署%20Hugo%20Blog/1.png)
 
 ---
 
@@ -107,7 +107,7 @@ jobs:
 1. 进入仓库 https://github.com/Hit0ris/hit0ris.github.io/, 点击导航栏 Actions
 2. 点击失败的构建记录 `Create gh=pages.yml`
 3. 点击 Jobs 下, 右侧的 Re-run jobs 按钮, 确认重新运行
-![](/assets/基于%20Github%20Action%20自动部署%20Hugo%20Blog/2.png)
+![](assets/【Hugo】基于%20Github%20Action%20自动部署%20Hugo%20Blog/2.png)
 
 完成后返回仓库 Settings, 左侧点击 **Pages**,  **Source** 设置为 Deploy from a branch, Branch 设置为 gh-pages 分支, 点击 Save。
 
@@ -125,7 +125,7 @@ on:
 
 同时也支持多种方式触发部署请求, 如定时在每天早上八点构建, 保留原先的基础, 修改后如下
 
-```
+```yml
 on:
   push:
     branches:
