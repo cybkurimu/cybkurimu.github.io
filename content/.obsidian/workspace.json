@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0923365b47ee4dc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/【Hugo】基于 Github Action 自动部署 Hugo Blog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md"
+                "file": "posts/【Hugo】基于 Github Action 自动部署 Hugo Blog.md"
               }
             }
           },
@@ -79,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284
+    "width": 295
   },
   "right": {
     "id": "99665e454dc16951",
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md",
+                "file": "posts/【Hugo】基于 Github Action 自动部署 Hugo Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md",
+                "file": "posts/【Hugo】基于 Github Action 自动部署 Hugo Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325
+    "width": 364,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,17 +161,17 @@
       "obsidian-file-cleaner:清理文件": false
     }
   },
-  "active": "721c1863fe75ee3f",
+  "active": "0923365b47ee4dc4",
   "lastOpenFiles": [
-    "posts/【Hugo】基于 Github Action 自动部署 Hugo Blog.md",
+    "Archives.md",
     "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md",
+    "posts/【Hugo】基于 Github Action 自动部署 Hugo Blog.md",
     "posts/draft/关于个人 Github 开源项目的一些思考.md",
     "about/index.md",
     "assets/基于 Github Action 自动部署 Hugo Blog/3.png",
     "assets/【Hugo】基于 Github Action 自动部署 Hugo Blog/2.png",
     "posts/123.md",
     "draft/基于 Github Action 自动部署 Hugo Blog.canvas",
-    "draft/基于 Github Action 自动部署 Hugo Blog.md",
-    "assets/【Hugo】基于 Github Action 自动部署 Hugo Blog/1.png"
+    "draft/基于 Github Action 自动部署 Hugo Blog.md"
   ]
 }

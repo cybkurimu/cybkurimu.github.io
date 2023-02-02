@@ -18,7 +18,7 @@ draft: false
 
 真的快要被这一堆红色的 error & not successful 烦死了, 照猫画虎半天, 出现一点小问题就没法解决, 这篇记录下从理解 Github Action 到成功自动化部署博客的过程
 
-![](assets/【Hugo】基于%20Github%20Action%20自动部署%20Hugo%20Blog/1.png)
+![](/assets/【Hugo】基于%20Github%20Action%20自动部署%20Hugo%20Blog/1.png)
 
 ---
 
