@@ -107,7 +107,7 @@ jobs:
 1. 进入仓库 https://github.com/Hit0ris/hit0ris.github.io/, 点击导航栏 Actions
 2. 点击失败的构建记录 `Create gh=pages.yml`
 3. 点击 Jobs 下, 右侧的 Re-run jobs 按钮, 确认重新运行
-![](assets/【Hugo】基于%20Github%20Action%20自动部署%20Hugo%20Blog/2.png)
+![](/assets/【Hugo】基于%20Github%20Action%20自动部署%20Hugo%20Blog/2.png)
 
 完成后返回仓库 Settings, 左侧点击 **Pages**,  **Source** 设置为 Deploy from a branch, Branch 设置为 gh-pages 分支, 点击 Save。
 
