@@ -17,15 +17,6 @@
       "key": "P"
     }
   ],
-  "markdown:toggle-preview": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
   "editor:toggle-code": [
     {
       "modifiers": [
@@ -59,6 +50,16 @@
         "Shift"
       ],
       "key": "O"
+    }
+  ],
+  "markdown:toggle-preview": [],
+  "obsidian-auto-link-title:enhance-url-with-title": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
     }
   ]
 }

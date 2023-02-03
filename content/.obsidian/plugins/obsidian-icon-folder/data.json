@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiInboxArchiveFill",
       "RiDraftLine",
       "RiDraftFill",
       "RiInformationLine",
-      "FasCircleInfo",
-      "SiAboutdotme"
+      "FasCircleInfo"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -23,5 +23,6 @@
   },
   "posts": "IbArchive",
   "assets": "FarImages",
-  "about": "RiInformationLine"
+  "about": "RiInformationLine",
+  "subposts": "RiInboxArchiveFill"
 }
