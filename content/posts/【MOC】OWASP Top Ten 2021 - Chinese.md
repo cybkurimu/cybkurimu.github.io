@@ -14,7 +14,7 @@ categories: [Resources]
 featuredImage: ""
 featuredImagePreview: ""
 
-draft: false
+draft: true
 ---
 
 #### 十大 Web 应用程序安全风险 - Top 10 Web Application Security Risks

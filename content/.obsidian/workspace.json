@@ -11,16 +11,12 @@
             "id": "0923365b47ee4dc4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b3f7d864ded01eab",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "posts/【MOC】OWASP Top Ten 2021 - Chinese.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -51,7 +47,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "posts/【MOC】OWASP Top Ten 2021 - Chinese.md"
+              }
             }
           },
           {
@@ -97,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "posts/【MOC】OWASP Top Ten 2021 - Chinese.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "posts/【MOC】OWASP Top Ten 2021 - Chinese.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,14 +150,14 @@
   },
   "active": "0923365b47ee4dc4",
   "lastOpenFiles": [
+    "posts/【Hugo】基于 Github Action 自动部署 Hugo Blog.md",
+    "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md",
+    "posts/【MOC】OWASP Top Ten 2021 - Chinese.md",
     "roadmap.md",
     "Archives.md",
     "assets/roadmap/roadmap.png",
-    "posts/【MOC】OWASP Top Ten 2021 - Chinese.md",
     "about/index.md",
     "subposts/b7db6d0a/b7db6d0a_001.md",
-    "posts/【Hugo】基于 Github Action 自动部署 Hugo Blog.md",
-    "posts/【文件上传&文件内容校验】使用 Exiftool 向图片插入数据.md",
     "001.md",
     "001_Broken_Access_Control.md"
   ]
